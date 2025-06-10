@@ -7,6 +7,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
+.vs/
+*.db
+*.db-wal
+*.db-shm
+
+# Ignore all appsettings files across the solution
+**/appsettings.json
+**/appsettings.*.json
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
